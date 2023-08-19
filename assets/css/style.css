@@ -1,0 +1,251 @@
+@media (max-width: 768px) {}
+
+
+body {
+    background-color: #23272f;
+    font-family: Mont;
+    font-weight: 600;
+}
+
+header {
+    background-color: #374151;
+    height: auto;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+
+.back-to-old {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+color: white;
+border-radius: 20px;
+}
+
+.back-to-old:hover {
+    color: lightgreen;
+}
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome {
+    margin-top: 5px;
+    height: 440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/BannerBG3.png);
+    background-size: auto;
+    font-family: 'Fira Mono', monospace;
+    border-radius: 20px;
+}
+
+
+.blur {
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    height: 180px;
+    font-size: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    padding: 10px;
+}
+
+.blur-description {
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    width: 340px;
+    height: 180px;
+    padding: 10px;
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+
+
+.header-logo {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.sponsors-logo-header {
+    margin-left: 5px;
+    float: right;
+    border-radius: 100%;
+    width: 60px;
+}
+
+.sponsors-text-header {
+    color: #818181;
+    float: right;
+    font-size: 15px;
+    text-align: center;
+}
+
+.header-text {
+    margin-top: 20px;
+    font-family: 'Fira Mono', monospace;
+    float: inline-end;
+    font-size: 30px;
+    color: white;
+}
+
+
+.noidea {
+    width: 100%;
+}
+
+.paragraf {
+    float: center;
+    padding: 20px;
+    background-color: #1b1e24;
+    border-radius: 20px;
+    color: #f6f7f9;
+    font-family: 'Fira Mono', monospace;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    word-wrap: normal;
+}
+
+.team {
+    margin-top: 4px;
+    color: white;
+    background-color: #374151;
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    background: rgba(55, 65, 81, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    float:left;
+    margin-left: 30px;
+}
+
+.team-pfp {
+    padding: 20px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.roles {
+    color: lightgreen;
+}
+
+.telegram-button {
+    font-weight: 600;
+    vertical-align: middle;
+    background-color: #1a8ad5;
+    border-radius: 30px;
+    color: white;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    border-color: #1a8ad5;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.telegram-button:hover {
+    color: lightskyblue;
+}
+
+.footer {
+    background-color: #374151;
+    border-radius: 20px;
+    padding: 15px;
+    float: center;
+    margin-top: 450px;
+    text-align: center;
+    color:white;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid #505050;
+    color: white;
+    padding: 15px;
+    margin: 5px 2px 0 2px;
+    transition: 0.3s;
+    text-align: center;
+    width: 100%;
+}
+.button:hover {
+    font-size: 15px;
+    background-color: #00000050;
+}
+
+
+.horiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.devices { border-radius: 5px 5px 5px 5px;}
+.donate { border-radius: 5px 5px 20px 5px;}
+.src {border-radius: 20px 5px 5px 5px;}
+.old-website {border-radius:5px 5px 5px 5px;}
+.maintainers {border-radius: 5px 5px 5px 20px;}
+.dwn {border-radius: 5px 5px 5px 5px;}
+.tg {border-radius: 5px 20px 5px 5px;}
+.dwn { width: auto;}
+
+.go-up {
+    border-radius: 100%;
+    background-color: #53505f;
+    height: auto;
+    width: auto;
+}
+
+      .footer-button {
+    color: white;
+    text-decoration: none;
+}
+      .back-to-top {
+    float: right;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+        .back-to-top:hover {
+    background-color: #555;
+}
