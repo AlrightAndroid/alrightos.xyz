@@ -164,17 +164,10 @@ border-radius: 20px;
 }
 
 .telegram-button {
-    font-weight: 600;
-    vertical-align: middle;
-    background-color: #1a8ad5;
-    border-radius: 30px;
-    color: white;
-    width: 120px;
+    border-radius: 100%;
+    width: 80px;
     height: 60px;
-    text-align: center;
-    border-color: #1a8ad5;
-    margin-left: 60px;
-    font-size: 15px;
+    object-fit: contain;
 }
 
 .telegram-button:hover {
