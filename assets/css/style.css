@@ -1,10 +1,21 @@
-@media (max-width: 768px) {}
-
-
 body {
     background-color: #23272f;
     font-family: Mont;
     font-weight: 600;
+    -webkit-tap-highlight-color: #FFFFFF00;
+    -moz-tap-highlight-color: #FFFFFF00;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
 }
 
 header {
@@ -13,18 +24,6 @@ header {
     border-radius: 20px;
     padding: 15px;
     color: white;
-}
-
-.back-to-old {
-    display: flex;
-    justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
-color: white;
-border-radius: 20px;
-}
-
-.back-to-old:hover {
-    color: lightgreen;
 }
 
 #page-preloader {
@@ -89,8 +88,6 @@ border-radius: 20px;
     color: white;
 }
 
-
-
 .header-logo {
     border-radius: 100%;
     width: 60px;
@@ -102,6 +99,7 @@ border-radius: 20px;
     border-radius: 100%;
     width: 60px;
 }
+
 
 .sponsors-text-header {
     color: #818181;
@@ -149,8 +147,10 @@ border-radius: 20px;
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    float:left;
+    float: left;
     margin-left: 30px;
+    display: flexbox;
+    flex-direction: row;
 }
 
 .team-pfp {
@@ -181,7 +181,7 @@ border-radius: 20px;
     float: center;
     margin-top: 450px;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .button {
@@ -194,6 +194,7 @@ border-radius: 20px;
     text-align: center;
     width: 100%;
 }
+
 .button:hover {
     font-size: 15px;
     background-color: #00000050;
@@ -208,14 +209,37 @@ border-radius: 20px;
 }
 
 
-.devices { border-radius: 5px 5px 5px 5px;}
-.donate { border-radius: 5px 5px 20px 5px;}
-.src {border-radius: 20px 5px 5px 5px;}
-.old-website {border-radius:5px 5px 5px 5px;}
-.maintainers {border-radius: 5px 5px 5px 20px;}
-.dwn {border-radius: 5px 5px 5px 5px;}
-.tg {border-radius: 5px 20px 5px 5px;}
-.dwn { width: auto;}
+.devices {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.donate {
+    border-radius: 5px 5px 20px 5px;
+}
+
+.src {
+    border-radius: 20px 5px 5px 5px;
+}
+
+.old-website {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.maintainers {
+    border-radius: 5px 5px 5px 20px;
+}
+
+.dwn {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.tg {
+    border-radius: 5px 20px 5px 5px;
+}
+
+.dwn {
+    width: auto;
+}
 
 .go-up {
     border-radius: 100%;
@@ -224,11 +248,12 @@ border-radius: 20px;
     width: auto;
 }
 
-      .footer-button {
+.footer-button {
     color: white;
     text-decoration: none;
 }
-      .back-to-top {
+
+.back-to-top {
     float: right;
     background-color: #333;
     color: #fff;
@@ -239,6 +264,123 @@ border-radius: 20px;
     border-radius: 10px;
     margin-top: -50px;
 }
-        .back-to-top:hover {
+
+.back-to-top:hover {
     background-color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-logo {
+        border-radius: 100%;
+        width: 30px;
+    }
+
+    .sponsors-logo-header {
+        margin-left: 5px;
+        float: right;
+        border-radius: 100%;
+        width: 30px;
+    }
+
+    .blur {
+        align-items: center;
+        text-align: center;
+        width: 170px;
+        height: 90px;
+        font-size: 25px;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: white;
+        padding: 10px;
+    }
+
+    .paragraf {
+        float: center;
+        padding: 20px;
+        background-color: #1b1e24;
+        border-radius: 20px;
+        color: #f6f7f9;
+        font-family: 'Fira Mono', monospace;
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        word-wrap: normal;
+    }
+
+    .blur-description {
+        margin-left: 10px;
+        align-items: center;
+        text-align: center;
+        width: 170px;
+        height: 90px;
+        padding: 10px;
+        font-size: 11px;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: white;
+    }
+
+    .paragraf {
+        float: center;
+        padding: 20px;
+        background-color: #1b1e24;
+        border-radius: 20px;
+        color: #f6f7f9;
+        font-family: 'Fira Mono', monospace;
+        font-size: 8px;
+        width: auto;
+        height: auto;
+        word-wrap: normal;
+    }
+
+    .team {
+        margin-top: 4px;
+        color: white;
+        background-color: #374151;
+        width: 120px;
+        height: 200px;
+        text-align: center;
+        background: rgba(55, 65, 81, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        display: flexbox;
+        flex-direction: row;
+    }
+    
+    .team-pfp {
+        padding: 20px;
+        width: 50px;
+        border-radius: 100%;
+    }
+    
+    .roles {
+        color: lightgreen;
+        font-size: 6px;
+    }
+    
+    .telegram-button {
+        border-radius: 100%;
+        width: 40px;
+        height: 30px;
+        object-fit: contain;
+    }
+    
+    .telegram-button:hover {
+        color: lightskyblue;
+    }
+    
 }
