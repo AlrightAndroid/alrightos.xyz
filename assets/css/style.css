@@ -252,7 +252,28 @@ header {
     background-color: #555;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+
+
+    header {
+        margin-top: 60px;
+        border: 5px solid;
+        left: 50%;
+        transform: translate(-50%, 0);
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 20px;
+        padding: 15px;
+        color: white;
+        position: absolute;
+        width: auto;
+        height: auto;
+    }
 
     .blur {
         align-items: center;
@@ -312,9 +333,9 @@ header {
         height: auto;
         word-wrap: normal;
     }
-    team {
+    .team {
+        margin-top: 220px;
         border: 5px solid;
-        top: 35%;
         left: 50%;
         transform: translate(-50%, 0);
         padding: 10px;
@@ -324,8 +345,6 @@ header {
         -webkit-backdrop-filter: blur(20px);
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.18);
-        border-radius: 20px;
-        padding: 15px;
         color: white;
         position: absolute;
         width: auto;
@@ -335,6 +354,7 @@ header {
         border-radius: 100%;
         width: 30px;
         height: 30px;
+        margin-right: 6px;
         cursor: pointer;
     }
     
