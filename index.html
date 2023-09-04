@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <script>
+        // Kullanıcı ajanı (user-agent) dizesini al
+        var userAgent = navigator.userAgent;
+    
+        // Mobil cihazsa yönlendir
+        if (/Mobile/i.test(userAgent)) {
+          window.location.href = 'http://alrightos.xyz/mobile';
+        }
+      </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
