@@ -263,3 +263,63 @@ body {
         width: 30px;
         height: 30px;
     }
+
+    @media screen and (max-width: 397px) {
+        .team-logo, .sponsors-logo-header {
+            width: 29px;
+        }
+    }
+    
+    @media screen and (max-width: 386px) {
+        .team-logo, .sponsors-logo-header {
+            width: 28px;
+        }
+    }
+    
+    @media screen and (max-width: 377px) {
+        .team-logo, .sponsors-logo-header {
+            width: 27px;
+        }
+    }
+    
+    @media screen and (max-width: 368px) {
+        .team-logo {
+            width: 26px;
+            height: 29px;
+        }
+        .sponsors-logo-header {
+            width: 26px;
+            height: 28px;
+        }
+    }
+    
+    @media screen and (max-width: 362px) {
+        .team-logo {
+            width: 25px;
+            height: 27px;
+        }
+        .sponsors-logo-header {
+            width: 26px;
+            height: 27px;
+        }
+    }
+    
+    @media screen and (max-width: 373px) {
+        .blur-description {
+            font-size: 10px;
+        }
+    }
+
+    @media screen and (max-width: 377px) {
+        .team-logo, .sponsors-logo-header {
+            width: 24px;
+            height: fit-content;
+        }
+    }
+    @media screen and (max-width: 345px) {
+        .team-logo, .sponsors-logo-header {
+            width: 23px;
+            height: fit-content;
+        }
+    }
+    
